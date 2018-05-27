@@ -1,3 +1,3 @@
 # _*_ coding: utf-8 _*_
-
-print('Olá, Mundo!')
+msg = 'Olá, Mundo!'
+print(msg)
