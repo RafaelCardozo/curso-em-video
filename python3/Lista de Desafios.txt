@@ -1,0 +1,22 @@
+### Arquivo com a lista de exercíos de Python3 do Canal de Youtube "Curso em Video"
+Mundo 01
+Desafio 001:
+    Crie um programa que escreva "Olá, Mundo!" na tela.
+
+Desafio 002:
+    Crie um script Python que leia o nome de uma pessoa e mostre uma mensagem de boas-vindas de acordo com o valor digitado.
+
+Desafio 003:
+    Crie um script Python que leia o dia, o mês e o ano de nascimento de uma pessoa e mostre uma mensagem com a data formatada. Ex.: "Você nasceu no dia 17 de Mar de 1978. Correto?"
+
+Desafio 004:
+    Crie um script Python que leia dois números e tente mostrar a soma entre eles.
+
+Desafio 005:
+    Faça um programa que leia algo pelo teclado e mostre na tela o seu tipo primitivo e todas as informações possíveis sobre ele.
+
+Desafio 006:
+
+Desafio 007:
+
+Desafio 008:
