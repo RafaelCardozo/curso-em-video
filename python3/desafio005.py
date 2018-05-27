@@ -9,4 +9,4 @@ print('Está em maiúsculas? ', a.isupper())
 print('Está em minúsculas? ', a.islower())
 print('Está capitalizada? ', a.istitle())
 
-# TODO: Refazer com a função print('{}'.format(k))
+# TODO: Refazer o código com a função print no formato python3. Ex.: print('{}'.format(k))
