@@ -42,3 +42,6 @@ Desafio 013:
 
 Desafio 014:
     Faça um algoritmo que leia o salário de um funcionário e mostre seu novo salário, com 15% de aumento.
+
+Desafio 015:
+        Escreva um programa que converta uma temperatura digitada em ºC e coneverta para F.
