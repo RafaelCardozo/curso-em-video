@@ -1,4 +1,3 @@
-# _*_ coding: utf-8 _*_
-
+"""Primeiro Desafio."""
 msg = 'Olá, Mundo!'
 print(msg)

@@ -1,5 +1,4 @@
-# _*_ coding: utf-8 _*__
-
+u"""Décimo DEsafio."""
 n = int(input('Digite um número para ver sua tabuada: '))
 print('Tabuada de {}'.format(n))
 print('='*12)

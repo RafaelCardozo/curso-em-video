@@ -1,5 +1,4 @@
-# _*_ coding: utf-8 _*_
-
+"""Terceiro Desafio."""
 dia = input('Qual dia você nasceu? ')
 mes = input('Qual o mês que você nasceu? ')
 ano = input('Qual o ano que você nasceu? ')

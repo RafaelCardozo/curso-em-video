@@ -1,5 +1,4 @@
-# _*_ coding: utf-8 _*_
-
+"""Quarto Desafio."""
 n1 = int(input('Digite um número: '))
 n2 = int(input('Digite mais um número: '))
 s = n1 + n2

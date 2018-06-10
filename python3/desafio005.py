@@ -1,4 +1,4 @@
-# _*_ coding: utf-8 -*-
+""""Quinto Desafio."""
 a = input('Digite algo: ')
 print('O tipo primitivo desse valor é ', type(a))
 print('É alfabético? ', a.isalpha())

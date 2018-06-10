@@ -1,3 +1,4 @@
+"""Novo Desafio."""
 m = float(input('Uma distância em metros: '))
 km = m / 1000
 hm = m / 100

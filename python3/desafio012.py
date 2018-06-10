@@ -1,4 +1,4 @@
-# _*_ coding: utf-8 _*_
+u"""Décimo Segundo Desafio."""
 larg = float(input('Largura da parede: '))
 alt = float(input('Altura da parede: '))
 área = larg*alt
