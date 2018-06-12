@@ -1,0 +1,27 @@
+Aula #10 - Condições (Parte1)
+Estrutura condicionais
+
+    if carro.esquerda():
+        bloco True
+    else:
+        bloco False
+
+Condições simples:
+    if
+
+Condições compostas:
+    ifelse
+
+
+Ex.:
+tempo=int(input('Quantos anos tem seu carro?'))
+if tempo <=3:
+    print('carro novo')
+else:
+    print('carro velho')
+print('--FIM--')
+
+Condição Simplificada:
+tempo = int(input('Quantos anos tem seu carro?'))
+print('carro novo' if tempo<=3 else 'carro velho')
+print(--FIM--)
