@@ -1,0 +1,38 @@
+Manipulando uma Cadeia de Texto ou de Caracteres
+São apresentadas entre aspas simples ou compostas. Ex.: 'Curso em Vídeo Python'
+
+frase='Curso em Vídeo Python'
+Python considera a cadeia de Caracteres acima com espaços e letra e armazena cada letra e/pu espaço em um espaço na memória.
+Necessário conceito de Listas. O primeiro intem da lista recebe a numeração 0
+Fatiamento:
+Ex.: frase[9]
+    frase[9:13] o último item sempre é excluído, ou seja, não será printado.
+    frase[9:21:2] o último 2 diz que o Fatiamento será feito de dois em dois
+        Ex.:[V,d,o,P,t,o]
+    frase[15:] sei o início, mas não sei o final.
+    frase[9::3] sei o início, não sei o final, pulando 3 casas.
+
+Análise de srt:
+
+    len(frase) - comprimento da Lista
+    frase.count('o') - vai contar quantas vezes aparece a letra 'o' na lista. Não considera a letra 'O'.
+    frase.count('o', 0, 13) contagem com Fatiamento
+    frase.find('deo') - indicar onde começa a expressão 'deo' na lista.
+    frase.find('Android') - se coloca uma expressão que não existe retorna -1
+    'Curso' in frase - True
+
+Transformação de srt:
+
+    frase.replace('Python', 'Android') - substituita Python por Android
+    frase.upper() - todas em CAIXA ALTA
+    frase.lower() - todas em caixa baixa
+    frase.capitalize() - todas para minusculas e Só a primeira letras em Maiusculas.
+    frase.title() - Todas as primerias letras em Maiusculas.
+    frase.strip() - remove todos os espaços inúteis do início e do final.
+    frase.rstrip() - remove os últimos espaços
+    frase.lstrip() - remove os primeiros espaços
+
+Divisão de srt:
+
+    frase.split() - divisão que considera os espaços e gera uma lista com todas as palavras da cadeia de caracteres.
+    '-'.join(frase)
