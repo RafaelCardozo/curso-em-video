@@ -131,3 +131,6 @@ Desafio 035:
 
 Desafio 036:
     Desenvolva um prograna que leia o comprimento de três retas e diga ao usuário se elas podem ou não formar um triângulo.
+
+Desafio 037:
+    Pegar os exercícios anteriores e colocar cores. Mínimo 10.
