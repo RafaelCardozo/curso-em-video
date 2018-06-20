@@ -1,0 +1,16 @@
+"""Cores no Terminal - Aula 11"""
+ANSI - escape sequence
+    Começa com contra barra e uma sequencia de código:
+
+    Ex.: \033[style;text.backm
+    Ex.: \033[0;33;44m
+
+style           text            back
+0 - none        30 - branco     40
+1 - bold        31 - vermelho   41
+4 - underline   32 - verde      42
+7 - negative    33 - amarelo    43
+                34 - azul       44
+                35 - magenta    45
+                36 - anis       46
+                37 - cinza      47
