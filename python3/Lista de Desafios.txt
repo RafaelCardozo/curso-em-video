@@ -199,3 +199,40 @@ Desafio 044:
 
 Desafio 045:
     Crie um programa que faça o computador jogar Jokenpô com você.
+
+Desafio 046:
+    Faça um programa que mostre na tela uma contagem regressiva para o estouro de fogos de artifícios, indo de 10 até 0, com uma pausa de 1 segundo  entre eles.
+
+Desafio 047:
+    Crie um programa que  mostre na tela  todos os números pares que estão no intervalo entre 1 e 50.
+
+Desafio 048:
+    Faça um programa que calcule a soma entre todos os número ímpares que são múltiplus de três e que se encontram no intervalo de 1 a 500.
+
+Desafio 049:
+    Refaça o Desafio 009, mostrando a tabuada de um número que o usuário escolher, só que agora ultilizando um laço FOR.
+
+Desafio 050:
+    Escreva um programa que leia seis números inteiros e mostre a soma apenas daqueles que forem pares. Se o valor o valor digitado for ímpar, desconsidere-o.
+
+Desafio 051:
+    Desenvolva um programa que leia o primeiro termo de uma P.A. (Progressão Aritimética). No final, mostre os 10 primeiros termos dessa progressão.
+
+Desafio 052:
+    Faça um programa que leia um número inteiro e diga se ele é ou não um número primo.
+
+Desafio 053:
+    Crie um programa que leia uma frase qualquer e diga se ela é um palíndromo, desconsidere os espaços.
+    Ex: APOS A SOPA
+
+Desafio 054:
+    Crie um programa que leia o ano de nascimento de sete pessoas. No final, mostre quantas pessoas ainda ainda não atingiram a maioridade e quantas já são maiores.
+
+Desafio 055:
+    Faça um programa que leia o peso de cinco pessoas. No final, mostre qual foi o maior e o menor peso lidos.
+
+Desafio 056:
+    Desenvolva um programa que leia o nome, idade e sexo de 4 pessoas. No final do programa, mostre:
+    - A média de idade do grupo;
+    - Qual é o nome do homem mais velho;
+    - Quantas mulhers tem menos de 20 anos.
