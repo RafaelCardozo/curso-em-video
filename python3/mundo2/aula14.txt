@@ -1,0 +1,48 @@
+ESTRUTURAS DE CONTROLE
+
+Além do 'for' exitem outras estruturas de controle.
+A Estrutura 'for' necessita de um limite.
+
+Estrutura de Repetição de teste lógico
+Em Portugol:
+    Enquanto não chegar na maçã
+        passo
+    pega
+
+Em Pyhton:
+    while not maçã:
+        passo
+    pega
+
+Em Portugol:
+    Enquanto não chegar na maçã
+        se tiver chão
+            passo
+        se tiver buraco
+            pula
+        se tiver moeda
+            pega
+    pega
+
+Em Pyhton:
+    while not maçã:
+        if chão:
+            passo
+        if buraco:
+            pula
+        if moeda:
+            pega
+    pega
+
+
+Ex:
+n = 1
+par = impar = 0
+while n != 0:
+    n = int(input('Digite um valor: '))
+    if n != 0:
+        if n % 2 == 0:
+            par += 1
+        else:
+            impar += 1
+print('Você digitou {} núemros pares e {} números impares!'.format(par, impar))

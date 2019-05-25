@@ -1,0 +1,17 @@
+Curso em Vídeo - Prof. Gustavo Guanabara
+Módulo 2
+Condições Aninhadas
+
+carro.siga()
+if carro.esquerda():
+    carro.siga()
+    carro.direita()
+    ...
+elif carro.direita():
+    carro.siga()
+    carro.esquerda()
+    ...
+else:
+    carro.siga()
+    ...
+carro.pare()

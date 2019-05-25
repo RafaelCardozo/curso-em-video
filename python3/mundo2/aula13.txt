@@ -1,0 +1,46 @@
+Laços de Repetição -- Parte 1
+
+Laço com variável de controle:
+    Ex:
+        1)
+            Português
+            laço C no intervalo(1,10)
+                passo
+            pega
+
+            Python
+            for c in range(1,10):
+                passo
+            pega
+        2)
+            Português
+            laço C no intervalo(0,3)
+                passo
+                pula
+            passo
+            pega
+
+            Pyhton
+            for c in range(0,3):
+                passo
+                pula
+            passo
+            pega
+        3)
+            Português
+            laço C no intervalo(0,3)
+                se tiver moeda
+                    pega
+                passo
+                pula
+            passo
+            pega
+
+            Pyhton
+            for c in range(0,3):
+                if moeda:
+                    pega
+                passo
+                pula
+            passo
+            pega
