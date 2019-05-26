@@ -1,0 +1,16 @@
+Curso em Vídeo - Prof. Gustavo Guanabara
+Módulo 3
+Estruturas/Variáveis Compostas (Tuplas)
+
+Servem para atribuir mais de um valor a uma variável.
+"AS TUPLAS SÃO IMUTÁVEIS"
+
+Ex.: lanche = hambúrguer, suco, pizza, pudim
+
+Pode ser feito fatiamento com Tuplas, funciona da mesma maneira como o fatiamento de strings.
+Ex.: print(lanche[1:])
+print(lanche[0:2])
+len(lanche)
+
+for c in lanche:
+    print(c)
