@@ -1,0 +1,27 @@
+Curso em Vídeo - Prof. Gustavo Guanabara
+Módulo 3
+Listas (Parte 1)
+
+As Listas, no Pyhton, NÃO são imutáveis!
+Assim como as Tuplas, as Listas são variáveis compostas.
+Tuplas estão entre ()
+Listas estão entre []
+
+É possível adicionar obejtos novos nas Listas através no método append (no final), insert (na posicão de escolha).
+Ex.: lanche = [hanbúrguer, suco, pizza, picolé]
+        lanche.append('rosca')
+     lanche = [hanbúrguer, suco, pizza, picolé, rosca]
+
+     lanch.insert(0,hotdog)
+     lanche = [hotdog, hambúrguer, suco, pizza, picolé, rosca]
+
+Também é possível deletar obejtos de uma Lista atraves dos comandos: del, pop ou remove.
+    del lanche[3]
+    lanche.pop(3)
+    lanche.remove('pizza')
+
+valores = list(range(4,11))
+
+valores.sort()
+
+valores.sort(reverse=True)
