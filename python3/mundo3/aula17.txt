@@ -12,16 +12,23 @@ Ex.: lanche = [hambúrguer, suco, pizza, picolé]
         lanche.append('rosca')
      lanche = [hambúrguer, suco, pizza, picolé, rosca]
 
-     lanch.insert(0,hotdog)
+     lanch.insert(0,'hotdog')
      lanche = [hotdog, hambúrguer, suco, pizza, picolé, rosca]
 
 Também é possível deletar objetos de uma Lista através dos comandos: del, pop ou remove.
     del lanche[3]
     lanche.pop(3)
-    lanche.remove('pizza')
+    if 'pizza' in lista:
+        lanche.remove('pizza') #O método remove, caso tenha dois elementos iguais na tupla, remove somente o primeiro elemento.
 
 valores = list(range(4,11))
+    valores = [4,5,6,7,8,9,10]
 
-valores.sort()
+valores.sort() #organiza os elementos na ordem crescente
 
 valores.sort(reverse=True)
+
+len(valores)
+Para fazer uma cópia de uma Lista
+    a = [2, 4, 5, 6, 7]
+    b = a[:]
