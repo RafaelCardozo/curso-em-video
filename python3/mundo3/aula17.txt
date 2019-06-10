@@ -24,11 +24,12 @@ Também é possível deletar objetos de uma Lista através dos comandos: del, po
 valores = list(range(4,11))
     valores = [4,5,6,7,8,9,10]
 
-valores.sort() #organiza os elementos na ordem crescente
+valores.sort() #organiza os elementos na ordem crescente.
 
-valores.sort(reverse=True)
+valores.sort(reverse=True) #organiza os elementos na ordem decrescente.
 
-len(valores)
+print(len(valores)) #para saber quantos elementos possui a lista valores.
+
 Para fazer uma cópia de uma Lista
     a = [2, 4, 5, 6, 7]
     b = a[:]
