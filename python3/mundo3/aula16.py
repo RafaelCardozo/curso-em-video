@@ -1,3 +1,7 @@
+u"""AULA PRÁTICA 16.
+
+Curso em Vídeo - Professor Gustavo Guanabara.
+"""
 lanche = 'Hambúrguer', 'Suco', 'Pizza', 'Pudim', 'Batata Frita'
 print(lanche)
 
