@@ -33,3 +33,10 @@ for v in valores:
 for c, v in enumerate(valores):
     print(f'Na posição {c} encomtrei o valor {v}!')
 print('Cheguei ao final da lista.')
+
+novalista = list()
+for cont in range(0,5):
+    novalista.append(int(input('Digite um valor: ')))
+for c, v in enumerate(novalista):
+    print(f'Na posição {c} encontrei o valor {v}!')
+print('Cheguei ao final da nova lista.')
