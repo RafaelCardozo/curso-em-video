@@ -1,4 +1,4 @@
-lanche = ('Hambúrguer', 'Suco', 'Pizza', 'Pudim')
+lanche = 'Hambúrguer', 'Suco', 'Pizza', 'Pudim', 'Batata Frita'
 print(lanche)
 
 for comida in lanche:

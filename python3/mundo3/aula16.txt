@@ -5,11 +5,14 @@ Estruturas/Variáveis Compostas (Tuplas)
 Servem para atribuir mais de um valor a uma variável.
 "AS TUPLAS SÃO IMUTÁVEIS"
 
-Ex.: lanche = hambúrguer, suco, pizza, pudim
+Os elementos de um Tupla são identificados por índices.
+Ex.: lanche = 'hambúrguer', 'suco', 'pizza', 'pudim'
+                0           1      2    3
 
 Pode ser feito fatiamento com Tuplas, funciona da mesma maneira como o fatiamento de strings.
-Ex.: print(lanche[1:])
-print(lanche[0:2])
+Ex.: print(lanche[1:]) suco, pizza, pudim
+print(lanche[0:2]) hambúrguer, suco
+print(lanche[-1]) pudim
 len(lanche)
 
 for c in lanche:
