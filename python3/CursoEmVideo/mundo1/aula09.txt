@@ -3,7 +3,7 @@ São apresentadas entre aspas simples ou compostas. Ex.: 'Curso em Vídeo Python
 
 frase='Curso em Vídeo Python'
 Python considera a cadeia de Caracteres acima com espaços e letra e armazena cada letra e/pu espaço em um espaço na memória.
-Necessário conceito de Listas. O primeiro intem da lista recebe a numeração 0
+Necessário conceito de Listas. O primeiro item da lista recebe a numeração 0
 Fatiamento:
 Ex.: frase[9]
     frase[9:13] o último item sempre é excluído, ou seja, não será printado.
@@ -23,7 +23,7 @@ Análise de srt:
 
 Transformação de srt:
 
-    frase.replace('Python', 'Android') - substituita Python por Android
+    frase.replace('Python', 'Android') - substitui Python por Android
     frase.upper() - todas em CAIXA ALTA
     frase.lower() - todas em caixa baixa
     frase.capitalize() - todas para minusculas e Só a primeira letras em Maiusculas.
