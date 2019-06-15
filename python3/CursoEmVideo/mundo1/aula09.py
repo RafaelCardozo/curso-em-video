@@ -1,4 +1,4 @@
-"""Aula prática"""
+"""Aula prática."""
 frase = 'Curso em Vídeo Python'
 print(frase)
 print(frase[3])
