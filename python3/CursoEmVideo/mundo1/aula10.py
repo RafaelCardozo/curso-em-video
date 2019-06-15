@@ -1,4 +1,4 @@
-"""Aula 10 Parte Prática"""
+"""Aula 10 Parte Prática."""
 nome = str(input('Qual é sue nome? '))
 if nome == 'Rafael':
     print('Que nome lindo você tem!')
