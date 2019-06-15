@@ -10,7 +10,7 @@ programa vai ler o nome do jogador e quantas partidas ele jogou. Depois vai ler
 """
 jogador = dict()
 partidas = list()
-jogador['nome'] = str(input('Nome do Jogador: ')).strip().capitalize()
+jogador['nome'] = str(input('Nome do Jogador: ')).strip().title()
 tot = int(input(f'Quantas partidas {jogador["nome"]}: '))
 for c in range(0, tot):
     partidas.append(int(input(f'    Quantos goasl na {c}ª partida? ')))

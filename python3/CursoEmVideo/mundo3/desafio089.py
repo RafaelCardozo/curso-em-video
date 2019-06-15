@@ -8,7 +8,7 @@ permita que o usuário possa mostrar as notas de cada aluno individualmente.
 """
 ficha = list()
 while True:
-    nome = str(input('Nome: '))
+    nome = str(input('Nome: ')).strip().title()
     nota1 = float(input('Nota 1: '))
     nota2 = float(input('Nota 2: '))
     media = (nota1 + nota2) / 2

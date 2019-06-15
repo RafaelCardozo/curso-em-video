@@ -11,7 +11,7 @@ partidas = list()
 time = list()
 while True:
     jogador.clear()
-    jogador['nome'] = str(input('Nome do Jogador: ')).strip().capitalize()
+    jogador['nome'] = str(input('Nome do Jogador: ')).strip().title()
     tot = int(input(f'Quantas partidas {jogador["nome"]}: '))
     partidas.clear()
     for c in range(0, tot):

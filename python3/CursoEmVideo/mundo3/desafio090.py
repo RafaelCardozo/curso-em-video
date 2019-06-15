@@ -7,7 +7,7 @@ Faça um programa que leia nome e média de um aluno, guardando também a situa�
 em um dicionário. No final, mostre o conteúdo da estrutura na tela.
 """
 aluno = dict()
-aluno['nome'] = str(input('Nome do Aluno: ')).strip().capitalize()
+aluno['nome'] = str(input('Nome do Aluno: ')).strip().title()
 aluno['média'] = float(input(f'Média de {aluno["nome"]}: '))
 if aluno['média'] >= 7:
     aluno['situação'] = 'APROVADO'
