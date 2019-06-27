@@ -1,0 +1,44 @@
+Curso em Vídeo - Professor Gustavo Guanabara
+Módulo 3 - Funções (Part1)
+
+As funções em Python tem relação com Rotinas. As Rotinas são ações que repetem constantemente em um script/programa.
+Ex.:
+print('--------------------------')
+print('    SISTEMA DE ALUNOS     ')
+print('--------------------------')
+print('--------------------------')
+print(' CADASTRO DE FUNCIONÁRIOS ')
+print('--------------------------')
+print('--------------------------')
+print('     ERRO DO SISTEMA      ')
+print('--------------------------')
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+def título(txt):
+    print('-' * 30)
+    print(txt)
+    print('-' * 30)
+
+
+título('SISTEMA DE ALUNOS')
+título('CADASTRO DE FUNCIONÁRIOS')
+título('ERRO DO SISTEMA')
+
+
+Empacotar parâmetros:
+Recebe valores e  coloca em Tuplas
+Ex.:
+def contador(*núm):
+
+contador(5,7,3,1,4)
+contador(8,4,7)
+
+Recebe valores e coloca em Listas.
+Ex.:
+
+def dobra(lst): #Tudo que for feito em 'lst' interfere em 'valores'
+    pos = 0
+    while pos < len(lst):
+        lst[pos] *= 2
+        pos += 1
+valores=[7, 2, 5, 0, 4]
