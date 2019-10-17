@@ -13,7 +13,7 @@ Pode ser feito fatiamento com Tuplas, funciona da mesma maneira como o fatiament
 Ex.: print(lanche[1:]) suco, pizza, pudim
 print(lanche[0:2]) hambúrguer, suco
 print(lanche[-1]) pudim
-len(lanche)
+len(lanche) 4
 
 for c in lanche:
     print(c)
