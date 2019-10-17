@@ -7,7 +7,7 @@ Servem para atribuir mais de um valor a uma variável.
 
 Os elementos de um Tupla são identificados por índices.
 Ex.: lanche = 'hambúrguer', 'suco', 'pizza', 'pudim'
-                0           1      2    3
+                   0           1       2        3
 
 Pode ser feito fatiamento com Tuplas, funciona da mesma maneira como o fatiamento de strings.
 Ex.: print(lanche[1:]) suco, pizza, pudim
