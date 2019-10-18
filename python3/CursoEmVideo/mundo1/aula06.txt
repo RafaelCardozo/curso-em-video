@@ -1,0 +1,6 @@
+Tipos Primitivos
+
+str = caracteres alfanuméricos sempre entre aspas(Ex.: 'Olá' '7.5' '')
+float = número real (Ex.: 4.5 0.076 -15.223 7.0)
+int = número inteiros (Ex.: 7 -4 0 9875)
+bool = valores lógicos ou boolianos (Ex.: True False)
