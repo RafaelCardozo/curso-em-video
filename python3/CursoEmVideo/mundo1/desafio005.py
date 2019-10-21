@@ -16,3 +16,13 @@ print('Está capitalizada? ', a.istitle())
 
 # TODO: Refazer o código com a função print no formato python3.
 # Ex.: print('{}'.format(k))
+
+b = input('Digite algo novamente: ')
+print('O tipo primitivo de {} é {}'.format(b, type(b)))
+print('{} é alfabético? {}'.format(b, b.isalpha()))
+print('{} é alfanumérico? {}'.format(b, b.isalnum()))
+print('{} é um número? {}'.format(b, b.isnumeric()))
+print('{} só tem espaços? {}'.format(b, b.isspace()))
+print('{} está em maiúsculas? {}'.format(b, b.isupper()))
+print('{} está em minúsculas? {}'.format(b, b.islower()))
+print('{} está capitalizada? {}'.format(b, b.istitle()))
