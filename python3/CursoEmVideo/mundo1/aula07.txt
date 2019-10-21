@@ -1,0 +1,16 @@
+Operações Aritméticas
+
++ adição
+- subtração
+* multiplicação
+/ divisão
+** potência ou exponenciação
+// divisão inteira
+% resto da divisão ou módulo
+
+Ordem de Precedência
+
+1 ()
+2 **
+3 * / // %
+4 + -
