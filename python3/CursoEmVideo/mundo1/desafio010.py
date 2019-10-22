@@ -1,4 +1,7 @@
-u"""Décimo DEsafio."""
+u"""Desafio010.
+
+Faça um programa que leia um número Inteiro qualquer e mostre na tela a sua tabuada.
+"""
 n = int(input('Digite um número para ver sua tabuada: '))
 print('Tabuada de {}'.format(n))
 print('='*12)
