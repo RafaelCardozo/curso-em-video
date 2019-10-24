@@ -1,0 +1,4 @@
+Utilizando Módulos
+    Podemos importar bibliotecas, módulos e funções.
+    Ex.:    import bebidas (importa todas as funcionalidades da biblioteca)
+            from bebidas import suco (importa somente a funcionalidade suco da biblioteca bebida)
