@@ -1,4 +1,13 @@
 Utilizando Módulos
+
     Podemos importar bibliotecas, módulos e funções.
-    Ex.:    import bebidas (importa todas as funcionalidades da biblioteca)
-            from bebidas import suco (importa somente a funcionalidade suco da biblioteca bebida)
+    Ex.:    import bebidas (importa todas as funcionalidades da biblioteca);
+            from bebidas import suco (importa somente a funcionalidade suco da biblioteca bebida).
+
+    Dentro da biblioteca math existem algumas funcionalidades:
+    ceil - arredondamento para cima;
+    floor - arredondamento para baixo;
+    trunc - truncar um número
+    pow - potência
+    sqrt - calcula a raiz quadrada
+    factorial - calcula o fatorial
