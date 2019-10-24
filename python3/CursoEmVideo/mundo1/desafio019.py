@@ -1,4 +1,7 @@
-"""Décimo Nono Desafio."""
+u"""Desafio019.
+
+Faça um programa que leia um ângulo qualquer e mostre na tela o valor do seno, cosseno e tangente desse ângulo.
+"""
 from math import tan, cos, sin, radians
 angulo = float(input('Digite o ângulo desejado: '))
 seno = sin(radians(angulo))
