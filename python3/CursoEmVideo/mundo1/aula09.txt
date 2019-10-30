@@ -2,8 +2,8 @@ Manipulando uma Cadeia de Texto ou de Caracteres
 São apresentadas entre aspas simples ou compostas. Ex.: 'Curso em Vídeo Python'
 
 frase='Curso em Vídeo Python'
-Python considera a cadeia de Caracteres acima com espaços e letra e armazena cada letra e/pu espaço em um espaço na memória.
-Necessário conceito de Listas. O primeiro item da lista recebe a numeração 0
+Python considera a cadeia de Caracteres acima com espaços e letra e armazena cada letra e/ou espaço em um espaço na memória.
+Necessário conceito de Listas. O primeiro item da lista recebe a indexação 0.
 Fatiamento:
 Ex.: frase[9]
     frase[9:13] o último item sempre é excluído, ou seja, não será printado.
