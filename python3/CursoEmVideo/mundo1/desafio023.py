@@ -1,4 +1,12 @@
-"""Vigésimo Terceiro Desafio."""
+u"""Desafio023.
+
+Crie um programa que leia o nome completo de uma pessoa e mostre:
+    O nome com todas as letras maiúsculas;
+    O nome com todas minúsculas.
+    Quantas letras ao todo (sem considerar espaços);
+    Quantas letras tem o primeiro nome.
+"""
+
 nome = str(input('Nome Completo: ')).strip()
 print('Analisando seu nome...')
 print('Seu nome em maiúsculas é {}'.format(nome.upper()))
