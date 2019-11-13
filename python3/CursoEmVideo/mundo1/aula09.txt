@@ -35,4 +35,6 @@ Transformação de srt:
 Divisão de srt:
 
     frase.split() - divisão que considera os espaços e gera uma lista com todas as palavras da cadeia de caracteres.
-    '-'.join(frase)
+
+Junção de str:
+    '-'.join(frase) - junta todos os elementos da lista substituindo os espaços pelo hifem.
