@@ -10,7 +10,7 @@ Condições simples:
     if
 
 Condições compostas:
-    ifelse
+    elif
 
 
 Ex.:
